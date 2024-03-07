@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import com.example.projectfoudation.ui.theme.ProjectfoudationTheme
 
 @Composable
-fun ListView(itemsCount: Int) {
+fun MainScreen(itemsCount: Int) {
     LazyColumn {
         items(itemsCount) { index ->
             Spacer(modifier = Modifier.height(10.dp))
